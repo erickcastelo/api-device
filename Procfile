@@ -1,1 +1,1 @@
-web: node src/server.js
+web: node src/server.js app.listen(process.env.PORT || 5000) 
