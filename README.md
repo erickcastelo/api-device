@@ -12,7 +12,7 @@
 2. Install Node.js on version 15.8.0 (recommended).
 3. Then run the ```npm install``` command.
 4. Run the command ```npx sequelize db:create``` (create your database).
-5. Run the command ```npx sequelize db:migration``` (create yours tables in database).
+5. Run the command ```npx sequelize db:migrate``` (create yours tables in database).
 6. Finally, run the ```npm start``` command to bring up the backend.
 7. Access http://localhost:3000/category or http://localhost:3000/device for test.
 
