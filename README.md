@@ -9,6 +9,10 @@
 
 ### Installing project dependencies
 1. Install Mysql on version 5.7 (recommended). Obs: If you use docker, you go to the /devops folder and run ```docker-compose up``` or ```docker-compose up -d``` that will install and configure.
+2. Database credentials:
+   - **user**: root
+   - **password**: root
+   - **hostname**: localhost  
 2. Install Node.js on version 15.8.0 (recommended).
 3. Then run the ```npm install``` command.
 4. Run the command ```npx sequelize db:create``` (create your database).
